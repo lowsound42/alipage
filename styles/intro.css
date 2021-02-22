@@ -10,6 +10,19 @@
     filter: brightness(96%);
 }
 
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    background-image: url('../assets/hero/hero.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+    width: 100%;
+}
+
 @media screen and (min-width: 850px) {
     .intro {
         width: 70%;
