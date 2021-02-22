@@ -37,12 +37,22 @@
     <hr>
     <main id="mainBlur">
       <h1>Get In Touch with Me</h1>
-      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScjf3Lu-KDCbRjSSGsQl7CPEuFHvtCGbdKCAHJHymnaErBGYA/viewform?embedded=true" width="320" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>      </main>
+      <form id="contact-form">
+        <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email">
+        <label for="email">Email address</label>
+        <input type="text" class="form-control" id="subject" aria-describedby="emailHelp" placeholder="Subject">
+        <label for="subject">Subject</label>
+        <textarea class="form-control" id="message" placeholder="Message"></textarea><br>
+        <label for="message">Message</label>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+      </main>
       <footer>
         <div id="footerBlur" class="footerContainer">
         <p class="footerPara">&copy; Ali Khan <span id="year"></span></p>
       </div>
     </footer>
     <script src="/scripts/script.js" async defer></script>
+    <script src="/scripts/email.js" async defer></script>
   </body>
 </html>
