@@ -1,0 +1,200 @@
+/************************************************************ 
+*
+*
+* Fonts
+*
+*
+************************************************************/
+@font-face {
+    font-family: Oswald;
+    src: url(../assets/fonts/Oswald\ and\ Quattrocento/Oswald/Oswald-Regular.ttf);
+}
+
+@font-face {
+    font-family: Quattrocento;
+    src: url(../assets/fonts/Oswald\ and\ Quattrocento/Quattrocento/Quattrocento-Regular.ttf);
+}
+
+@font-face {
+    font-family: Metal;
+    src: url(../assets/fonts/Metal/MetalMania-Regular.ttf);
+}
+
+/************************************************************ 
+*
+*
+* Global styles
+*
+*
+************************************************************/
+body {
+    background-color: black;
+    padding: 2rem 1rem;
+    color: #ffff;
+    font-family: 'Quattrocento', serif;
+}
+
+hr {
+    background-color: #ffff;
+    margin-top: 1rem;
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+}
+
+p {
+    font-family: 'Quattrocento', serif;
+}
+
+.blur {
+    filter: blur(4px);
+}
+
+/************************************************************ 
+*
+*
+* Navbar styling
+*
+*
+************************************************************/
+.navContainer {
+    position: relative;
+}
+
+.logoContainer {
+    display: flex;
+    flex-direction: row;
+    color: #ffff;
+    align-items: center;
+    justify-content: space-between;
+}
+.navLogo {
+    width: 100px;
+}
+
+.navLine {
+    transition: transform 0.2s;
+    background-color: #ffff;
+    width: 2rem;
+    height: 5px;
+    margin: 5px 5px;
+}
+
+#top {
+    transform-origin: 0% 0%;
+}
+
+#bottom {
+    transform-origin: 0% 100%;
+}
+
+#mid {
+    animation: 0.2s fadeIn;
+    animation-fill-mode: forwards;
+}
+
+#mid.active {
+    display: none;
+}
+
+#top.active {
+    transform-origin: 0% 0%;
+    -moz-transform: rotate(45deg) translate(-6px, 4px);
+    -webkit-transform: rotate(45deg) translate(-6px, 4px);
+    transform: rotate(45deg) translate(-6px, 4px);
+}
+
+#bottom.active {
+    transform-origin: 0% 100%;
+    -moz-transform: rotate(-45deg) translate(-11px, 1px);
+    -webkit-transform: rotate(-45deg) translate(-11px, 1px);
+    transform: rotate(-45deg) translate(-11px, 1px);
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        visibility: visible;
+        opacity: 1;
+    }
+}
+
+.navList {
+    display: none;
+}
+
+.navList.active {
+    animation: 0.2s fadeIn;
+    z-index: 9;
+    display: flex;
+    flex-direction: column;
+    color: #ffff;
+    list-style: none;
+    padding: 0;
+    position: absolute;
+    width: 100%;
+    background-color: black;
+}
+
+.navList.inactive {
+    display: none;
+}
+
+.navItem {
+    padding: 2rem 1rem;
+    margin-bottom: 1rem;
+    background-color: #ffff;
+    color: #000000;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 2px;
+    font-size: 1.2rem;
+}
+
+.navList a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.navItem:active {
+    background-color: #000000;
+    color: #ffff;
+    border: 2px solid #ffff;
+}
+
+/************************************************************
+*
+*
+* Footer styling
+*
+*
+************************************************************/
+
+.footerContainer {
+    position: fixed;
+    bottom: 0;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+}
+.footerPara {
+    color: #ffff;
+    font-family: 'Oswald', sans-serif;
+}
+
+#year {
+    color: #ffff;
+    font-family: 'Oswald', sans-serif;
+}
+
+#footerContainer.blur {
+    filter: blur(4px);
+    position: fixed;
+    bottom: 0;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+}

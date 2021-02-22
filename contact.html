@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" type="image/png" href="./assets/favicon/favicon-16x16.png"/>
+    <title>Ancient Mariner</title>
+    <meta name="description" content="Professional website for a Toronto based session musician.">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="stylesheet" href="/styles/contact.css">
+  </head>
+  <body>
+    <!--[if lt IE 7]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+    <header>
+    <nav class="navContainer">
+    <div class="logoContainer">
+      <img class="navLogo" src="./assets/logo/transparent.png" alt="Ancient Mariner logo"/>
+      <div class="navButton" onclick="navActivate()">
+        <div class="navLine" id="top"></div>      
+        <div class="navLine" id="mid"></div>
+        <div class="navLine" id="bottom"></div>
+      </div>
+    </div>
+    <ul class="navList" id="navList">
+      <a href="index.html"><li class="navItem">Home</li></a>
+      <a href="work.html"><li class="navItem">My Work</li></a>
+    </ul>  
+    </nav>
+    </header>
+    <hr>
+    <main id="mainBlur">
+      <h1>Get In Touch with Me</h1>
+      <form class="formContainer" action="https://getform.io/f/16e08e92-6ee1-45f8-bff2-2a78a8af5ca3" method="POST">
+        <input type="text" name="name">Name
+        <input type="email" name="email">
+        Email
+        <input type="text" name="message">
+        Your Message
+        <button type="submit">Send</button>
+      </form>
+      </main>
+      <footer>
+        <div id="footerBlur" class="footerContainer">
+        <p class="footerPara">&copy; Ali Khan <span id="year"></span></p>
+      </div>
+    </footer>
+    <script src="/scripts/script.js" async defer></script>
+  </body>
+</html>
