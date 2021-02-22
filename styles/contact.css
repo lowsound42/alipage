@@ -32,6 +32,6 @@ button {
 @media screen and (min-width: 850px) {
     main {
         width: 40%;
-        margin: 10rem auto;
+        margin: 6rem auto;
     }
 }
