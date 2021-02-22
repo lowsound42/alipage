@@ -26,10 +26,27 @@ const navActivate = () => {
 }
 
 const initDate = () =>{ 
-  var yearElem = document.getElementById('year');
-  var now = new Date();
-  var year = now.getFullYear();
+  let yearElem = document.getElementById('year');
+  let now = new Date();
+  let year = now.getFullYear();
   yearElem.innerHTML = year;
+}
+
+const workToggle = (element) => {
+  let comm = document.getElementById('fiverr');
+  let personal = document.getElementById('personal');
+  if(comm.classList.contains('visible')){
+    comm.classList.remove('visible');
+  }else if (personal.classList.contains('visible')){
+    personal.classList.remove('visible');
+  }
+ if(element.id == 'ftoggle'){
+    comm.classList.add('visible');
+ }else if(element.id == 'ptoggle'){
+    personal.classList.add('visible');
+}
+
+ section.classList.add('visible');
 }
 
 window.onload = initDate;

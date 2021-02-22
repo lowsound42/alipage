@@ -1,0 +1,43 @@
+/************************************************************
+*
+*
+* Work styling
+*
+*
+************************************************************/
+#fiverr {
+    display: none;
+}
+
+#personal {
+    display: none;
+}
+
+#fiverr.visible {
+    display: flex;
+    flex-direction: column;
+}
+
+#personal.visible {
+    display: flex;
+    flex-direction: column;
+}
+
+#buttonContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+}
+
+#ftoggle,
+#ptoggle {
+    width: 8rem;
+    height: 4rem;
+    background-color: #ffff;
+    font-size: 1rem;
+    border-radius: 20px;
+    outline: none;
+}
