@@ -15,11 +15,11 @@
     flex-direction: column;
     justify-content: center;
     align-content: center;
-    background-image: url('../assets/hero/hero.jpg');
+    background-image: url('../assets/hero/hero.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 80vh;
+    height: 75vh;
     width: 100%;
 }
 

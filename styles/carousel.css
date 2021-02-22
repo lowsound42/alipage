@@ -1,0 +1,193 @@
+@font-face {
+    font-family: Oswald;
+    src: url(../assets/fonts/Oswald\ and\ Quattrocento/Oswald/Oswald-Regular.ttf);
+}
+
+@font-face {
+    font-family: Quattrocento;
+    src: url(../assets/fonts/Oswald\ and\ Quattrocento/Quattrocento/Quattrocento-Regular.ttf);
+}
+
+@font-face {
+    font-family: Metal;
+    src: url(../assets/fonts/Metal/MetalMania-Regular.ttf);
+}
+
+/*=======================
+All styles related to 
+the project section
+and the carousel
+=======================*/
+.projectsContainer {
+    height: 100vh;
+    box-sizing: border-box;
+    overflow: hidden;
+    width: 100%;
+}
+.projectsContainer.startup {
+    display: none;
+}
+.projectsContainer * {
+    box-sizing: border-box;
+}
+.projectsContainer__gallery {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    position: relative;
+    background-color: #000000;
+}
+.projectsContainer__gallery-button--prev {
+    font-family: 'Quattrocento', serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #ffffff;
+    width: 5rem;
+    height: 3rem;
+    color: #ffffff;
+    background-color: #000000;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 10%;
+    left: 30%;
+}
+.projectsContainer__gallery-button--prev:focus {
+    outline: 0;
+}
+.projectsContainer__gallery-button--prev:hover {
+    background-color: #ffffff;
+    color: #000000;
+}
+.projectsContainer__gallery-button--prev:active {
+    background-color: white;
+    color: #000000;
+}
+@media (min-width: 320px) and (max-width: 767px) {
+    .projectsContainer__gallery-button--prev {
+        left: 14%;
+    }
+}
+@media only screen and (max-width: 319px) {
+    .projectsContainer__gallery-button--prev {
+        left: 8%;
+    }
+}
+@media (min-width: 1200px) and (max-width: 1599px) {
+    .projectsContainer__gallery-button--prev {
+        width: 10rem;
+        left: 24%;
+        height: 4rem;
+        font-size: 2rem;
+    }
+}
+@media (min-width: 1600px) {
+    .projectsContainer__gallery-button--prev {
+        width: 20rem;
+        left: 20%;
+        height: 6rem;
+        font-size: 3rem;
+    }
+}
+.projectsContainer__gallery-button--next {
+    font-family: 'Quattrocento', serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 2px solid #ffffff;
+    align-items: center;
+    width: 5rem;
+    height: 3rem;
+    color: #ffffff;
+    background-color: #000000;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 10%;
+    left: 60%;
+}
+.projectsContainer__gallery-button--next:focus {
+    outline: 0;
+}
+.projectsContainer__gallery-button--next:hover {
+    background-color: #ffffff;
+    color: #000000;
+}
+.projectsContainer__gallery-button--next:active {
+    background-color: white;
+    color: #000000;
+}
+@media (min-width: 320px) and (max-width: 767px) {
+    .projectsContainer__gallery-button--next {
+        left: 64%;
+    }
+}
+@media only screen and (max-width: 319px) {
+    .projectsContainer__gallery-button--next {
+        left: 60%;
+    }
+}
+@media (min-width: 1200px) and (max-width: 1599px) {
+    .projectsContainer__gallery-button--next {
+        width: 10rem;
+        left: 66%;
+        height: 4rem;
+        font-size: 2rem;
+    }
+}
+@media (min-width: 1600px) {
+    .projectsContainer__gallery-button--next {
+        width: 20rem;
+        left: 70%;
+        height: 6rem;
+        font-size: 3rem;
+    }
+}
+.projectsContainer__gallery-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    background-color: #000000;
+    font-family: 'Quattrocento', serif;
+    font-size: 2rem;
+    color: white;
+    height: 50%;
+    width: 100%;
+    margin-top: 7rem;
+    border: 1px black solid;
+    text-align: center;
+    z-index: 100;
+    transition: transform 0.5s, opacity 0.5s, z-index 0.5s;
+}
+
+img {
+    margin: 0 auto;
+    width: 300px;
+}
+
+@media screen and (min-width: 850px) {
+    img {
+        margin: 0 auto;
+        width: 500px;
+    }
+}
+
+@media (min-width: 1600px) {
+    .projectsContainer__gallery-item {
+        margin-top: 10rem;
+    }
+}
+.projectsContainer__gallery-item.active {
+    z-index: 800;
+}
+.projectsContainer__gallery-item.prev {
+    z-index: 600;
+    transform: translateX(-70%);
+    /* Move 'prev' item to the left */
+}
+.projectsContainer__gallery-item.next {
+    z-index: 600;
+    transform: translateX(70%);
+    /* Move 'next' item to the right */
+}

@@ -181,7 +181,8 @@ p {
 .footerContainer {
     position: fixed;
     bottom: 0;
-    width: 90%;
+    width: 20%;
+    margin-left: 70%;
     display: flex;
     justify-content: flex-end;
 }

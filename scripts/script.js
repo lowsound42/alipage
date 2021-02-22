@@ -49,4 +49,10 @@ const workToggle = (element) => {
  section.classList.add('visible');
 }
 
-window.onload = initDate;
+/*
+  call carousel and window resize functions onload
+*/
+window.onload = (event) => {
+  initDate();
+  initCarousel();
+};
