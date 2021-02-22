@@ -29,7 +29,7 @@
 ************************************************************/
 body {
     background-color: black;
-    padding: 2rem 1rem;
+    padding: 2rem 0.5rem;
     color: #ffff;
     font-family: 'Quattrocento', serif;
 }
@@ -181,8 +181,8 @@ p {
 .footerContainer {
     position: fixed;
     bottom: 0;
-    width: 20%;
-    margin-left: 70%;
+    width: 40%;
+    margin-left: 40%;
     display: flex;
     justify-content: flex-end;
 }
