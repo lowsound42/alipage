@@ -36,8 +36,19 @@
 #ptoggle {
     width: 8rem;
     height: 4rem;
-    background-color: #ffff;
     font-size: 1rem;
-    border-radius: 20px;
     outline: none;
+    border: 3px solid #ffff;
+    color: #ffff;
+    background-color: #000000;
+}
+
+#ftoggle:active {
+    color: #000000;
+    background-color: #ffff;
+}
+
+#ptoggle:active {
+    color: #000000;
+    background-color: #ffff;
 }
