@@ -21,6 +21,10 @@ label {
 }
 
 button {
-    width: 40%;
+    width: 20%;
     align-self: flex-end;
+    height: 3rem;
+    background-color: #ffffff;
+    color: #000000;
+    border: none;
 }

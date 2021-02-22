@@ -5,6 +5,7 @@
 *
 *
 ************************************************************/
+
 #fiverr {
     display: none;
 }
@@ -16,6 +17,13 @@
 #fiverr.visible {
     display: flex;
     flex-direction: column;
+}
+
+.fiverrPara {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    width: 80%;
+    align-self: center;
 }
 
 #personal.visible {
@@ -30,6 +38,11 @@
     align-items: center;
     margin-top: 4rem;
     margin-bottom: 2rem;
+}
+
+.fiverrCard {
+    display: flex;
+    flex-direction: column;
 }
 
 #ftoggle,
@@ -51,4 +64,33 @@
 #ptoggle:active {
     color: #000000;
     background-color: #ffff;
+}
+
+@media screen and (min-width: 850px) {
+    .fiverrCard {
+        width: 40%;
+        margin: 2rem 2rem;
+    }
+
+    #fiverr.visible {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #personal.visible {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .fiverrPara {
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+        width: 80%;
+        text-align: center;
+        line-height: 50px;
+    }
 }
