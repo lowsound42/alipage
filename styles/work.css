@@ -44,7 +44,7 @@
     margin-bottom: 2rem;
 }
 
-.fiverrCard.visible {
+.fiverrCard {
     display: flex;
     flex-direction: column;
     position: relative;
@@ -107,12 +107,14 @@
     background-color: rgb(182, 182, 182);
     color: rgb(0, 0, 0);
     font-size: 16px;
+    padding: 16px 32px;
 }
 
 .textJayal {
     background-color: rgb(182, 182, 182);
     color: rgb(0, 0, 0);
     font-size: 16px;
+    padding: 16px 32px;
 }
 
 /* Panel style */
@@ -150,9 +152,9 @@
     margin: 0 auto;
     border-radius: 10px;
     text-align: center;
-    vertical-align: middle;
     margin: 1rem auto;
     font-size: 1.2rem;
+    padding: 2rem 0rem 0rem 0rem;
 }
 
 @media screen and (min-width: 850px) {
