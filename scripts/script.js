@@ -22,7 +22,6 @@ const navActivate = () => {
     mainBlur.classList.remove('blur');
     footerBlur.classList.remove('blur');
   }
-  console.log(midBar.classList.value);
 }
 
 const initDate = () =>{ 
