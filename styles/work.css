@@ -7,7 +7,6 @@
 ************************************************************/
 
 #fiverr {
-    display: none;
 }
 
 #personal {
@@ -44,7 +43,7 @@
     margin-bottom: 2rem;
 }
 
-.fiverrCard {
+.fiverrCard.visible {
     display: flex;
     flex-direction: column;
     position: relative;
