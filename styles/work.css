@@ -19,6 +19,10 @@
     flex-direction: column;
 }
 
+#fiverrCard {
+    display: none;
+}
+
 .fiverrPara {
     margin-top: 2rem;
     margin-bottom: 1rem;
