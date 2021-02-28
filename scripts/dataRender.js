@@ -21,11 +21,6 @@ document.addEventListener('click', function (e) {
     if (param in data) {
         let count = 1;
         data[param].forEach((element) => {
-            // console.log(element);
-            let div = document.createElement('div');
-            div.classList.add('test');
-            let paraText = document.createTextNode(count);
-            let final = div.appendChild(paraText);
             count++;
             let iframe = document.createElement('iframe');
             iframe.classList.add('iframe');
@@ -39,7 +34,15 @@ document.addEventListener('click', function (e) {
                 scrolling: 'no',
                 frameborder: 'yes'
             });
-            elem.appendChild(iframe);
+            let review = document.createElement('div');
+            let reviewText = document.createTextNode(element.review);
+            review.classList.add('middle');
+            review.appendChild(reviewText);
+            let fiverrCard = document.createElement('div');
+            fiverrCard.classList.add('fiverrCard');
+            elem.appendChild(fiverrCard);
+            fiverrCard.appendChild(iframe);
+            fiverrCard.appendChild(review);
         });
     }
     prevElem = elem;
