@@ -8,10 +8,10 @@ export const data = {
             genre: 'synth'
         },
         {
-            widget: 1215674416,
+            widget: 990243298,
             client: 'Jayel',
             review:
-                '“Highly recommended! He had a timeframe of 2 weeks and was done with the whole bundle of 20 tracks within a week! Tracks are all perfect and the price was also awesome! He is very,very friendly and tries to do his best to satisfy you! I hope we will work together again soon”',
+                '“Highly recommended! He finished a bundle 20 tracks within a week! Tracks are all perfect and the price was also awesome! He is very friendly and does his best to satisfy you! I hope we will work together again soon”',
             type: 2,
             genre: 'synth'
         },
@@ -101,10 +101,33 @@ export const data = {
     ],
     spoken: [
         {
-            widget: 1218641977,
-            client: 'Siwel',
-            review: '“Excellent, top man! Would definitely recommend.”',
-            type: 2,
+            widget: 994952188,
+            client: 'Anish',
+            type: 1,
+            genre: 'Spoken-Word'
+        },
+        {
+            widget: 994952185,
+            client: 'Anish',
+            type: 1,
+            genre: 'Spoken-Word'
+        },
+        {
+            widget: 994952191,
+            client: 'Anish',
+            type: 1,
+            genre: 'Spoken-Word'
+        },
+        {
+            widget: 994952182,
+            client: 'Anish',
+            type: 1,
+            genre: 'Spoken-Word'
+        },
+        {
+            widget: 994952176,
+            client: 'Anish',
+            type: 1,
             genre: 'Spoken-Word'
         }
     ],
