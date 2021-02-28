@@ -34,7 +34,7 @@ document.addEventListener('click', function (e) {
                 }
                 setAttributes(iframe, {
                     width: '90%',
-                    height: '300',
+                    height: '200',
                     scrolling: 'no',
                     frameborder: 'yes'
                 });
