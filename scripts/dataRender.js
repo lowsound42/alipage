@@ -9,8 +9,8 @@ function setAttributes(el, attrs) {
 }
 
 document.addEventListener('click', function (e) {
-    window.scrollBy(0, 300);
     if (e.target.classList.contains('a-btn')) {
+        window.scrollBy(0, 300);
         if (prevElem) {
             if (prevElem.classList.contains('a-panel')) {
                 prevElem.innerHTML = ' ';
