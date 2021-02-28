@@ -33,15 +33,20 @@ const initDate = () => {
 const workToggle = (element) => {
     let comm = document.getElementById('fiverr');
     let personal = document.getElementById('personal');
+    let videos = document.getElementById('videos');
     if (comm.classList.contains('visible')) {
         comm.classList.remove('visible');
     } else if (personal.classList.contains('visible')) {
         personal.classList.remove('visible');
+    } else if (videos.classList.contains('visible')) {
+        videos.classList.remove('visible');
     }
     if (element.id == 'ftoggle') {
         comm.classList.add('visible');
     } else if (element.id == 'ptoggle') {
         personal.classList.add('visible');
+    } else if (element.id == 'vtoggle') {
+        videos.classList.add('visible');
     }
 };
 

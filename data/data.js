@@ -99,6 +99,15 @@ export const data = {
             genre: 'Hip-Hop'
         }
     ],
+    spoken: [
+        {
+            widget: 1218641977,
+            client: 'Siwel',
+            review: '“Excellent, top man! Would definitely recommend.”',
+            type: 2,
+            genre: 'Spoken-Word'
+        }
+    ],
     misc: [
         {
             widget: 990235762,

@@ -143,9 +143,11 @@ a {
     color: #ffff;
     list-style: none;
     padding: 0;
+    padding-top: 4rem;
     position: absolute;
     width: 100%;
     background-color: black;
+    height: 20rem;
 }
 
 .navList.inactive {
@@ -154,7 +156,7 @@ a {
 
 .navItem {
     padding: 2rem 1rem;
-    margin-top: 1rem;
+    margin-bottom: 4rem;
     background-color: #ffff;
     color: #000000;
     text-align: center;
@@ -182,14 +184,25 @@ a {
 *
 *
 ************************************************************/
+.socialContainer {
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    justify-content: space-between;
+}
+
+.social {
+    width: 40px;
+    margin-right: 2rem;
+}
 
 .footerContainer {
     position: fixed;
-    bottom: 0;
-    width: 40%;
-    margin-left: 40%;
+    bottom: 1%;
+    width: 90%;
     display: flex;
-    justify-content: flex-end;
+    flex-direction: row;
+    justify-content: space-between;
 }
 .footerPara {
     color: #ffff;
@@ -213,6 +226,10 @@ a {
 @media screen and (min-width: 850px) {
     body {
         padding: 2rem 2rem;
+    }
+
+    .social {
+        width: 30px;
     }
 
     .navContainer {

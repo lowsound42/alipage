@@ -45,6 +45,7 @@
     <section id="buttonContainer">
       <button id="ftoggle" onclick="workToggle(this);">Commissions</button>
       <button id="ptoggle" onclick="workToggle(this);">Personal</button>
+      <button id="vtoggle" onclick="workToggle(this);">Videos</button>
     </section>
     <!-- container for all  -->
     </div>
@@ -52,15 +53,12 @@
       <p class="fiverrPara">I record tracks for customers on fiverr in a variety of different genres. Here are some
         examples. These are some of the genres I've worked with. Open one of them up, and select a song or playlist to
         take a listen as well as to read the client's review. Also, check out my
-        fiverr profile <a
-          href="https://www.fiverr.com/ancient_mariner/be-your-studio-guitarist-for-your-music-projects?context_referrer=search_gigs&source=top-bar&ref_ctx_id=ac80eef9-34f3-4166-8e8f-f899ed6fc446&pckg_id=1&pos=4&seller_online=true"
-          target="__blank">here</a></p>
+        fiverr profile <a href="https://www.fiverr.com/ancient_mariner" target="__blank">here</a></p>
       <div class="accordion">
         <!-- First accordian  -->
         <div class="a-container">
           <div class="a-btn">Synthwave</div>
           <div class="a-panel" id="synthwave">
-
           </div>
         </div>
 
@@ -83,11 +81,13 @@
           </div>
         </div>
         <div class="a-container">
+          <div class="a-btn">Spoken Word Poetry</div>
+          <div class="a-panel" id="spoken"> </div>
+        </div>
+        <div class="a-container">
           <div class="a-btn">Miscellaneous</div>
           <div class="a-panel" id="misc"> </div>
         </div>
-
-
     </section>
     <section id="personal">
       <p class="fiverrPara">This is the stuff I write and record for myself.</p>
@@ -104,11 +104,42 @@
         </div>
       </div>
     </section>
+    <section id="videos">
+      <p class="fiverrPara">Music in Motion</p>
+      <div id="youContainer">
+        <div class="youCard">
+          <iframe class="youtube" src="https://www.youtube.com/embed/-lpW1NvR8zw" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        </div>
+        <div class="youCard">
+          <iframe class="youtube" src="https://www.youtube.com/embed/2KSUKxRO_fY" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        </div>
+        <div class="youCard">
+          <iframe class="youtube" src="https://www.youtube.com/embed/FWGg4Y9qHvw" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        </div>
+        <div class="youCard">
+          <iframe class="youtube" src="https://www.youtube.com/embed/4-YVnmKO_mY" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        </div>
+      </div>
+    </section>
   </main>
   <footer>
     <div id="footerBlur" class="footerContainer">
-      <p class="footerPara">&copy; Ali Khan <span id="year"></span></p>
-    </div>
+      <div id="socialContainer">
+        <a href="https://www.instagram.com/ancient__mariner/" target="_blank"><img class="social"
+            src="/assets/logo/instagram-xxl.png" alt="instagram logo" /></a>
+        <a href="https://soundcloud.com/shredmeister6/echidna-tree" target="_blank"> <img class="social"
+            src="/assets/logo/soundcloud-2-xxl.png" alt="soundcloud logo" /></a>
+        <a href="https://www.youtube.com/channel/UCtVPFs7k9EAs018JVLF4icA" target="_blank"><img class="social"
+            src="/assets/logo/youtube-3-xxl.png" alt="youtube logo" /></a>
+      </div>
   </footer>
   <script src=" /scripts/script.js" async defer>
   </script>

@@ -8,7 +8,7 @@
 .intro {
     margin-top: 2rem;
     filter: brightness(96%);
-    margin-bottom: 4rem;
+    margin-bottom: 10rem;
 }
 
 .hero {
@@ -16,7 +16,7 @@
     flex-direction: column;
     justify-content: center;
     align-content: center;
-    background-image: url('../assets/hero/hero-min.png');
+    background-image: url('../assets/hero/studio.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -30,6 +30,7 @@
         margin: 0rem auto;
         margin-top: 6rem;
         font-size: 1.5rem;
+        margin-bottom: 15rem;
     }
 }
 
