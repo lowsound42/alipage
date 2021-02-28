@@ -80,6 +80,7 @@ a {
 }
 .navLogo {
     width: 100px;
+    min-height: 4rem;
 }
 
 .navLine {
