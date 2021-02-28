@@ -10,7 +10,7 @@ function setAttributes(el, attrs) {
 
 document.addEventListener('click', function (e) {
     if (e.target.classList.contains('a-btn')) {
-        window.scrollBy(0, 200);
+        window.scrollBy(0, 100);
         if (prevElem) {
             if (prevElem.classList.contains('a-panel')) {
                 prevElem.innerHTML = ' ';
