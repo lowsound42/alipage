@@ -187,13 +187,13 @@ a {
 .socialContainer {
     display: flex;
     flex-direction: row;
-    width: 60%;
+    width: 30%;
     justify-content: space-between;
 }
 
 .social {
-    width: 40px;
-    margin-right: 2rem;
+    width: 25px;
+    margin-right: 1rem;
 }
 
 .footerContainer {
@@ -224,17 +224,22 @@ a {
     justify-content: center;
 }
 
+#specialSocial {
+    width: 50px;
+    margin-bottom: 0.2rem;
+}
+
 @media screen and (min-width: 850px) {
     body {
         padding: 2rem 2rem;
     }
 
     .social {
-        width: 30px;
+        width: 40px;
     }
 
     #specialSocial {
-        width: 50px;
+        width: 70px;
         margin-bottom: 0.5rem;
     }
 
