@@ -64,6 +64,7 @@
     flex-direction: column;
     position: relative;
     align-items: center;
+    margin: 0 auto;
 }
 
 #youContainer {
