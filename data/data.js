@@ -60,7 +60,7 @@ export const data = {
             client: 'Hellollerre',
             review:
                 "“Outstanding!! ancient_mariner made a backing track for my song in less than a day, with really excellent communication. Went absolutely above and beyond the description, I'm so impressed by their skills.”",
-            type: 1,
+            type: 3,
             genre: 'folk'
         }
     ],
@@ -86,7 +86,7 @@ export const data = {
             client: 'Destineddancesb',
             review:
                 '“Wonderful experience! Communication was excellent and the finished track was exactly what I was hoping for. I highly recommend!”',
-            type: 1,
+            type: 3,
             genre: 'Pop/Rock'
         }
     ],
@@ -114,7 +114,7 @@ export const data = {
             client: 'Bhn Pres',
             review:
                 '“The track has three different elements of what I could use for my podcast the Producer was very responsive to all of my feedback”',
-            type: 1,
+            type: 3,
             genre: 'Misc'
         }
     ]

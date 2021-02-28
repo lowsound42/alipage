@@ -126,7 +126,7 @@
     transition: 0.5s ease;
     opacity: 0;
     position: absolute;
-    bottom: -5%;
+    bottom: -10%;
     left: 50%;
     width: 100%;
     transform: translate(-50%, -50%);
@@ -139,6 +139,18 @@
     opacity: 0;
     position: absolute;
     bottom: -30%;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.middle.wut {
+    transition: 0.5s ease;
+    opacity: 0;
+    position: absolute;
+    bottom: -20%;
     left: 50%;
     width: 100%;
     transform: translate(-50%, -50%);

@@ -26,7 +26,7 @@ document.addEventListener('click', function (e) {
                 let iframe = document.createElement('iframe');
                 iframe.classList.add('iframe');
                 console.log(element.type);
-                if (element.type === 1) {
+                if (element.type === 1 || element.type === 3) {
                     iframe.src = `https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/${element.widget}&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true`;
                 } else {
                     iframe.src = `https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/${element.widget}&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true`;
@@ -43,6 +43,8 @@ document.addEventListener('click', function (e) {
                     review.classList.add('middle');
                     if (element.type === 2) {
                         review.classList.add('wat');
+                    } else if (element.type === 3) {
+                        review.classList.add('wut');
                     }
                     review.appendChild(reviewText);
                 }

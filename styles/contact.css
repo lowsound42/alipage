@@ -12,6 +12,16 @@ h1 {
 #contact-form {
     display: flex;
     flex-direction: column;
+    margin-bottom: 10rem;
+}
+
+input {
+    height: 2rem;
+    border-radius: 10px;
+}
+
+.messageText {
+    height: 6rem;
 }
 
 label {
