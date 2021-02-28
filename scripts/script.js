@@ -30,6 +30,10 @@ const initDate = () => {
     yearElem.innerHTML = year;
 };
 
+const scroll = () => {
+    console.log('SCROLL');
+};
+
 const workToggle = (element) => {
     let comm = document.getElementById('fiverr');
     let personal = document.getElementById('personal');
@@ -42,7 +46,7 @@ const workToggle = (element) => {
         videos.classList.remove('visible');
     }
     if (element.id == 'ftoggle') {
-        window.scrollBy(0, 100);
+        scroll();
         comm.classList.add('visible');
     } else if (element.id == 'ptoggle') {
         personal.classList.add('visible');
