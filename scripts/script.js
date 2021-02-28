@@ -42,6 +42,7 @@ const workToggle = (element) => {
         videos.classList.remove('visible');
     }
     if (element.id == 'ftoggle') {
+        window.scrollBy(0, 100);
         comm.classList.add('visible');
     } else if (element.id == 'ptoggle') {
         personal.classList.add('visible');
