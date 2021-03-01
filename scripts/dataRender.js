@@ -10,7 +10,7 @@ function setAttributes(el, attrs) {
 
 document.addEventListener('click', function (e) {
     if (prevElem == null) {
-        window.scrollBy(0, 260);
+        window.scrollBy(0, 300);
     }
     if (e.target.classList.contains('a-btn')) {
         if (prevElem) {
@@ -44,6 +44,8 @@ document.addEventListener('click', function (e) {
                         review.classList.add('wat');
                     } else if (element.type === 3) {
                         review.classList.add('wut');
+                    } else if (element.type === 4) {
+                        review.classList.add('wot');
                     }
                     review.appendChild(reviewText);
                 }

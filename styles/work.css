@@ -64,7 +64,7 @@
     flex-direction: column;
     position: relative;
     align-items: center;
-    margin: 0 auto;
+    margin: 2rem auto;
 }
 
 #youContainer {
@@ -122,42 +122,6 @@
     backface-visibility: hidden;
 }
 
-.middle {
-    transition: 0.5s ease;
-    opacity: 0;
-    position: absolute;
-    bottom: -10%;
-    left: 50%;
-    width: 100%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    text-align: center;
-}
-
-.middle.wat {
-    transition: 0.5s ease;
-    opacity: 0;
-    position: absolute;
-    bottom: -30%;
-    left: 50%;
-    width: 100%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    text-align: center;
-}
-
-.middle.wut {
-    transition: 0.5s ease;
-    opacity: 0;
-    position: absolute;
-    bottom: -20%;
-    left: 50%;
-    width: 100%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    text-align: center;
-}
-
 .fiverrCard:hover .image {
     opacity: 0.9;
 }
@@ -178,6 +142,54 @@
     color: rgb(0, 0, 0);
     font-size: 16px;
     padding: 16px 32px;
+}
+
+.middle {
+    transition: 0.5s ease;
+    opacity: 0;
+    position: absolute;
+    bottom: -10%;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.middle.wat {
+    transition: 0.5s ease;
+    opacity: 0;
+    position: absolute;
+    bottom: -45%;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.middle.wut {
+    transition: 0.5s ease;
+    opacity: 0;
+    position: absolute;
+    bottom: -50%;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.middle.wot {
+    transition: 0.5s ease;
+    opacity: 0;
+    position: absolute;
+    bottom: -30%;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
 }
 
 /* Panel style */
@@ -248,6 +260,54 @@
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
+    }
+
+    .middle {
+        transition: 0.5s ease;
+        opacity: 0;
+        position: absolute;
+        bottom: -10%;
+        left: 50%;
+        width: 100%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        text-align: center;
+    }
+
+    .middle.wat {
+        transition: 0.5s ease;
+        opacity: 0;
+        position: absolute;
+        bottom: -30%;
+        left: 50%;
+        width: 100%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        text-align: center;
+    }
+
+    .middle.wot {
+        transition: 0.5s ease;
+        opacity: 0;
+        position: absolute;
+        bottom: -30%;
+        left: 50%;
+        width: 100%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        text-align: center;
+    }
+
+    .middle.wut {
+        transition: 0.5s ease;
+        opacity: 0;
+        position: absolute;
+        bottom: -50%;
+        left: 50%;
+        width: 100%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        text-align: center;
     }
 
     #buttonContainer {

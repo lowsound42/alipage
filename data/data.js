@@ -1,9 +1,9 @@
 export const data = {
     synthwave: [
         {
-            widget: 990243280,
-            client: 'George Alexiou',
-            review: '“Excellent service and very professional”',
+            widget: 990243277,
+            client: 'TheNeonReaper',
+            review: '“Phenomenal job!”',
             type: 1,
             genre: 'synth'
         },
@@ -16,17 +16,17 @@ export const data = {
             genre: 'synth'
         },
         {
-            widget: 990243277,
-            client: 'TheNeonReaper',
-            review: '“Phenomenal job!”',
-            type: 1,
-            genre: 'synth'
-        },
-        {
             widget: 990243271,
             client: 'Tschokee',
             review:
                 '“Quick and high quality service! Absolutely surpassed my expectations.”',
+            type: 1,
+            genre: 'synth'
+        },
+        {
+            widget: 990243280,
+            client: 'George Alexiou',
+            review: '“Excellent service and very professional”',
             type: 1,
             genre: 'synth'
         },
@@ -44,7 +44,15 @@ export const data = {
             client: 'Yuyuwahyudi',
             review:
                 '“Highly recommended. good communication, I really like the way he works. Very friendly, I will be back”',
-            type: 1,
+            type: 4,
+            genre: 'folk'
+        },
+        {
+            widget: 995238406,
+            client: 'Hellollerre',
+            review:
+                "“Outstanding!! ancient_mariner made a backing track for my song in less than a day, with really excellent communication. Went absolutely above and beyond the description, I'm so impressed by their skills.”",
+            type: 3,
             genre: 'folk'
         },
         {
@@ -53,14 +61,6 @@ export const data = {
             review:
                 '“A music arranger who is very patient and can produce good work.”',
             type: 1,
-            genre: 'folk'
-        },
-        {
-            widget: 990199873,
-            client: 'Hellollerre',
-            review:
-                "“Outstanding!! ancient_mariner made a backing track for my song in less than a day, with really excellent communication. Went absolutely above and beyond the description, I'm so impressed by their skills.”",
-            type: 3,
             genre: 'folk'
         }
     ],
@@ -74,19 +74,19 @@ export const data = {
             genre: 'Pop/Rock'
         },
         {
+            widget: 990237880,
+            client: 'Destineddancesb',
+            review:
+                '“Wonderful experience! Communication was excellent and the finished track was exactly what I was hoping for. I highly recommend!”',
+            type: 2,
+            genre: 'Pop/Rock'
+        },
+        {
             widget: 990237868,
             client: 'Strawberrysiren',
             review:
                 '“Absolutely amazing, listened to what I want and super nice!”',
             type: 1,
-            genre: 'Pop/Rock'
-        },
-        {
-            widget: 990237880,
-            client: 'Destineddancesb',
-            review:
-                '“Wonderful experience! Communication was excellent and the finished track was exactly what I was hoping for. I highly recommend!”',
-            type: 3,
             genre: 'Pop/Rock'
         }
     ],

@@ -30,10 +30,6 @@ const initDate = () => {
     yearElem.innerHTML = year;
 };
 
-const scroll = () => {
-    console.log('SCROLL');
-};
-
 const workToggle = (element) => {
     let comm = document.getElementById('fiverr');
     let personal = document.getElementById('personal');
