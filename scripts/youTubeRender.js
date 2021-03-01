@@ -12,6 +12,12 @@ document.addEventListener('click', function (e) {
                 let youFrame = document.createElement('iframe');
                 youFrame.classList.add('youtube');
                 youFrame.src = youtube[key].link;
+                youFrame.setAttribute('frameborder', '0');
+                youFrame.setAttribute(
+                    'allow',
+                    'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
+                );
+                youFrame.setAttribute('allowfullscreen', 'yes');
                 container.appendChild(youFrame);
                 targetElem.appendChild(container);
             }
