@@ -1,4 +1,6 @@
 let scrollCount = 0;
+let videoVisibility = false;
+let time = 0;
 // Nav bar class change on click
 const navActivate = () => {
     let topBar = document.getElementById('top');
@@ -43,6 +45,7 @@ const workToggle = (element) => {
     let comm = document.getElementById('fiverr');
     let personal = document.getElementById('personal');
     let videos = document.getElementById('videos');
+    let container = document.getElementById('youContainer');
     if (comm.classList.contains('visible')) {
         comm.classList.remove('visible');
     } else if (personal.classList.contains('visible')) {
@@ -53,10 +56,17 @@ const workToggle = (element) => {
     if (element.id == 'ftoggle') {
         scroll();
         comm.classList.add('visible');
+        videoVisibility = false;
+        container.innerHTML = ' ';
     } else if (element.id == 'ptoggle') {
         personal.classList.add('visible');
+        videoVisibility = false;
+        container.innerHTML = ' ';
     } else if (element.id == 'vtoggle') {
-        videos.classList.add('visible');
+        if (!videoVisibility) {
+            videos.classList.add('visible');
+            videoVisibility = true;
+        }
     }
 };
 
