@@ -1,3 +1,4 @@
+let scrollCount = 0;
 // Nav bar class change on click
 const navActivate = () => {
     let topBar = document.getElementById('top');
@@ -23,6 +24,13 @@ const navActivate = () => {
     }
 };
 
+const scrollTest = () => {
+    if (scrollCount == 0) {
+        window.scrollBy(0, 300);
+        scrollCount = 1;
+    }
+};
+
 const initDate = () => {
     let yearElem = document.getElementById('year');
     let now = new Date();
@@ -31,6 +39,7 @@ const initDate = () => {
 };
 
 const workToggle = (element) => {
+    scrollCount = 0;
     let comm = document.getElementById('fiverr');
     let personal = document.getElementById('personal');
     let videos = document.getElementById('videos');

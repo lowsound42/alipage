@@ -9,9 +9,8 @@ function setAttributes(el, attrs) {
 }
 
 document.addEventListener('click', function (e) {
-    if (prevElem == null) {
-        window.scrollBy(0, 300);
-    }
+    scrollTest();
+
     if (e.target.classList.contains('a-btn')) {
         if (prevElem) {
             if (prevElem.classList.contains('a-panel')) {
@@ -57,5 +56,6 @@ document.addEventListener('click', function (e) {
             });
         }
         prevElem = elem;
+        scrollCount = null;
     }
 });
