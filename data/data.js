@@ -51,8 +51,8 @@ export const data = {
             widget: 995238406,
             client: 'Hellollerre',
             review:
-                "“Outstanding!! ancient_mariner made a backing track for my song in less than a day, with really excellent communication. Went absolutely above and beyond the description, I'm so impressed by their skills.”",
-            type: 3,
+                '“Outstanding!! He made a backing track for my song in less than a day, with really excellent communication. Went absolutely above and beyond the description.”',
+            type: 2,
             genre: 'folk'
         },
         {
