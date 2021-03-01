@@ -1,6 +1,5 @@
 let scrollCount = 0;
 let videoVisibility = false;
-let time = 0;
 // Nav bar class change on click
 const navActivate = () => {
     let topBar = document.getElementById('top');
@@ -63,9 +62,9 @@ const workToggle = (element) => {
         videoVisibility = false;
         container.innerHTML = ' ';
     } else if (element.id == 'vtoggle') {
+        console.log(videos.classList);
         if (!videoVisibility) {
             videos.classList.add('visible');
-            videoVisibility = true;
         }
     }
 };

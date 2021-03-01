@@ -5,6 +5,7 @@ document.addEventListener('click', function (e) {
     let targetElem = document.getElementById('youContainer');
     if (e.target.id == 'vtoggle') {
         if (videoBox.classList.contains('visible')) {
+            targetElem.innerHTML = ' ';
             for (var key in youtube) {
                 console.log(youtube[key].link);
                 let container = document.createElement('div');
