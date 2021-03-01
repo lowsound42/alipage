@@ -45,6 +45,7 @@ const workToggle = (element) => {
     let personal = document.getElementById('personal');
     let videos = document.getElementById('videos');
     let container = document.getElementById('youContainer');
+    let persContainer = document.getElementById('personal');
     if (comm.classList.contains('visible')) {
         comm.classList.remove('visible');
     } else if (personal.classList.contains('visible')) {
@@ -57,12 +58,13 @@ const workToggle = (element) => {
         comm.classList.add('visible');
         videoVisibility = false;
         container.innerHTML = ' ';
+        persContainer.innerHTML = ' ';
     } else if (element.id == 'ptoggle') {
         personal.classList.add('visible');
         videoVisibility = false;
         container.innerHTML = ' ';
     } else if (element.id == 'vtoggle') {
-        console.log(videos.classList);
+        persContainer.innerHTML = ' ';
         if (!videoVisibility) {
             videos.classList.add('visible');
         }
