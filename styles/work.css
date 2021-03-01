@@ -93,25 +93,30 @@
     height: 4rem;
     font-size: 1rem;
     outline: none;
-    border: 3px solid #ffff;
-    color: #ffff;
-    background-color: #000000;
+    background-color: #ffffff; /* Green */
+    border: none;
+    color: #000000;
     margin-bottom: 2rem;
+    cursor: pointer;
+    border-radius: 30px;
 }
 
 #ftoggle:active {
-    color: #000000;
-    background-color: #ffff;
+    color: #ffffff;
+    background-color: #000000;
+    border: 1px solid #ffffff;
 }
 
 #ptoggle:active {
-    color: #000000;
-    background-color: #ffff;
+    color: #ffffff;
+    background-color: #000000;
+    border: 1px solid #ffffff;
 }
 
 #vtoggle:active {
-    color: #000000;
-    background-color: #ffff;
+    color: #ffffff;
+    background-color: #000000;
+    border: 1px solid #ffffff;
 }
 
 .image {
