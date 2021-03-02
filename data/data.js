@@ -105,29 +105,34 @@ export const data = {
             widget: 994952188,
             client: 'Anish',
             type: 1,
+            review: 'The Poetry of Anish Malpani',
             genre: 'Spoken-Word'
         },
         {
             widget: 994952185,
             client: 'Anish',
+            review: 'The Poetry of Anish Malpani',
             type: 1,
             genre: 'Spoken-Word'
         },
         {
             widget: 994952191,
             client: 'Anish',
+            review: 'The Poetry of Anish Malpani',
             type: 1,
             genre: 'Spoken-Word'
         },
         {
             widget: 994952182,
             client: 'Anish',
+            review: 'The Poetry of Anish Malpani',
             type: 1,
             genre: 'Spoken-Word'
         },
         {
             widget: 994952176,
             client: 'Anish',
+            review: 'The Poetry of Anish Malpani',
             type: 1,
             genre: 'Spoken-Word'
         }
