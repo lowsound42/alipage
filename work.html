@@ -24,21 +24,21 @@
     <nav class="navContainer">
       <div class="logoContainer">
         <a href="/"><img class="navLogo" src="./assets/logo/transparent.png" alt="Ancient Mariner logo" /></a>
-        <div class="navButton" onclick="navActivate()">
+        <div class="navButton noSelect" onclick="navActivate()">
           <div class="navLine" id="top"></div>
           <div class="navLine" id="mid"></div>
           <div class="navLine" id="bottom"></div>
         </div>
       </div>
-      <ul class="navList" id="navList">
-        <a href="/">
-          <li class="navItem">Home</li>
+      <ul class="navList noSelect" id="navList">
+        <a class="noSelect" href="/">
+          <li class="navItem noSelect">Home</li>
         </a>
-        <a href="work.html">
-          <li class="navItem">My Work</li>
+        <a class="noSelect" href="work.html">
+          <li class="navItem noSelect">My Work</li>
         </a>
-        <a href="contact.html">
-          <li class="navItem">Contact</li>
+        <a class="noSelect" href="contact.html">
+          <li class="navItem noSelect">Contact</li>
         </a>
       </ul>
     </nav>
@@ -50,9 +50,9 @@
         all the categories below for some samples of my work.</p>
     </section>
     <section id="buttonContainer">
-      <button id="ftoggle" onclick="workToggle(this);">Commissions</button>
-      <button id="ptoggle" onclick="workToggle(this);">Personal</button>
-      <button id="vtoggle" onclick="workToggle(this);">Videos</button>
+      <button id="ftoggle" class="noSelect" onclick="workToggle(this);">Commissions</button>
+      <button id="ptoggle" class="noSelect" onclick="workToggle(this);">Personal</button>
+      <button id="vtoggle" class="noSelect" onclick="workToggle(this);">Videos</button>
     </section>
     <!-- container for all  -->
     </div>
