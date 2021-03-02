@@ -43,10 +43,9 @@
 }
 
 .fiverrPara {
-    margin-top: 2rem;
     margin-bottom: 1rem;
-    width: 80%;
     align-self: center;
+    text-align: center;
 }
 
 #personal.visible {
@@ -277,6 +276,10 @@
     height: 5rem;
 }
 
+.persHeader {
+    text-align: center;
+}
+
 @media screen and (min-width: 600px) {
     .youtube {
         width: 400px;
@@ -368,9 +371,10 @@
 
     #personal.visible {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         flex-wrap: wrap;
         justify-content: center;
+        align-items: center;
     }
 
     #videos.visible {
@@ -381,9 +385,7 @@
     }
 
     .fiverrPara {
-        margin-top: 2rem;
         margin-bottom: 1rem;
-        width: 80%;
         text-align: center;
         line-height: 50px;
     }
