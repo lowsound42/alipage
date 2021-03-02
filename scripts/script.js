@@ -26,8 +26,19 @@ const navActivate = () => {
 };
 
 const scrollTest = () => {
+    var win = window,
+        doc = document,
+        docElem = doc.documentElement,
+        body = doc.getElementsByTagName('body')[0],
+        x = win.innerWidth || docElem.clientWidth || body.clientWidth,
+        y = win.innerHeight || docElem.clientHeight || body.clientHeight;
     if (scrollCount == 0) {
-        window.scrollBy(0, 300);
+        console.log(y);
+        if (y < 700) {
+            window.scrollBy(0, 600);
+        } else {
+            window.scrollBy(0, 400);
+        }
         scrollCount = 1;
     }
 };
