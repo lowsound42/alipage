@@ -5,6 +5,20 @@
 *
 *
 ************************************************************/
+@font-face {
+    font-family: Oswald;
+    src: url(../assets/fonts/Oswald\ and\ Quattrocento/Oswald/Oswald-Regular.ttf);
+}
+
+@font-face {
+    font-family: Quattrocento;
+    src: url(../assets/fonts/Oswald\ and\ Quattrocento/Quattrocento/Quattrocento-Regular.ttf);
+}
+
+@font-face {
+    font-family: Metal;
+    src: url(../assets/fonts/Metal/MetalMania-Regular.ttf);
+}
 
 #fiverr {
     display: none;
@@ -56,6 +70,7 @@
     justify-content: space-around;
     align-items: center;
     margin-bottom: 2rem;
+    font-family: 'Quattrocento', serif;
 }
 
 .fiverrCard {
@@ -97,6 +112,7 @@
     color: #000000;
     margin-bottom: 2rem;
     cursor: pointer;
+    font-family: 'Quattrocento', serif;
     border-radius: 30px;
 }
 
@@ -331,6 +347,7 @@
         align-items: center;
         margin-top: 4rem;
         margin-bottom: 2rem;
+        font-family: 'Quattrocento', serif;
     }
     .a-btn {
         width: 60%;
