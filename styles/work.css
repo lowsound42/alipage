@@ -356,6 +356,10 @@
         width: 60%;
     }
 
+    .a-btn:hover {
+        cursor: pointer;
+    }
+
     .a-panel {
         display: flex;
         flex-direction: row;
