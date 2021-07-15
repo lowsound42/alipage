@@ -8,6 +8,13 @@ export const data = {
             genre: 'synth'
         },
         {
+            widget: 1088325241,
+            client: 'walnuts15',
+            review: '“Great job!!! Thank you so much.”',
+            type: 1,
+            genre: 'synth'
+        },
+        {
             widget: 990243298,
             client: 'Jayel',
             review: '“Highly recommended! He finished a bundle 20 tracks within a week! Tracks are all perfect and the price was also awesome! He is very friendly and does his best to satisfy you! I hope we will work together again soon” - Jayel',
@@ -34,6 +41,48 @@ export const data = {
             review: '“Literally perfect!!” - Twodollarsam',
             type: 1,
             genre: 'synth'
+        },
+        {
+            widget: 1088326672,
+            client: 'Tschokee',
+            review: '“He did an outstanding job! Patient and delivers flawlessly.”',
+            type: 1,
+            genre: 'synth'
+        },
+        {
+            widget: 1088325478,
+            client: 'Irexus',
+            review: '“Very very good.”',
+            type: 1,
+            genre: 'synth'
+        },
+        {
+            widget: 1088326729,
+            client: 'Walterweinstein',
+            review: `“I'm having trouble finding words to explain how happy with ancient_mariner. Asking someone to create a sound from my head isn't easy to do - yet somehow I received something better.”`,
+            type: 4,
+            genre: 'synth'
+        },
+        {
+            widget: 1088326249,
+            client: 'Scamwatch',
+            review: `“Absolutely incredible work on AM's part. I gave the task of producing two versions of the same song. One rock/metal, the other more synth heavy, and AM blew my expectations out of the water.”`,
+            type: 4,
+            genre: 'synth'
+        },
+        {
+            widget: 1088327794,
+            client: 'Zannto',
+            review: `“Without a doubt, he exceeded my expectations a lot and so much that I will work on another project with him.”`,
+            type: 1,
+            genre: 'synth'
+        },
+        {
+            widget: 1088327839,
+            client: 'Zannto',
+            review: `“AMAZING, I didn't need to go into much detail to make a connection with the style of music that we need.”`,
+            type: 1,
+            genre: 'synth'
         }
     ],
     folk: [
@@ -57,6 +106,13 @@ export const data = {
             review: '“A music arranger who is very patient and can produce good work.” - Kamil Salem',
             type: 1,
             genre: 'folk'
+        },
+        {
+            widget: 1088324680,
+            client: 'Hellollerre',
+            review: '“Fantastic job. Thank you! - Hellollerre',
+            type: 1,
+            genre: 'Folk'
         }
     ],
     poprock: [
@@ -68,17 +124,10 @@ export const data = {
             genre: 'Pop/Rock'
         },
         {
-            widget: 1088324680,
-            client: 'Hellollerre',
-            review: '“Fantastic job. Thank you! - Hellollerre',
-            type: 1,
-            genre: 'Pop/Rock'
-        },
-        {
             widget: 990237880,
             client: 'Destineddancesb',
             review: '“Wonderful experience! Communication was excellent and the finished track was exactly what I was hoping for. I highly recommend!” - Destineddancesb',
-            type: 2,
+            type: 4,
             genre: 'Pop/Rock'
         },
         {

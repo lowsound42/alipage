@@ -10,5 +10,8 @@ export const youtube = {
     },
     4: {
         link: 'https://www.youtube.com/embed/4-YVnmKO_mY'
+    },
+    5: {
+        link: 'https://youtube.com/embed/sYULDUlJEgI'
     }
 };
