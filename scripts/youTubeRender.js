@@ -7,7 +7,6 @@ document.addEventListener('click', function (e) {
         if (videoBox.classList.contains('visible')) {
             targetElem.innerHTML = ' ';
             for (var key in youtube) {
-                console.log(youtube[key].link);
                 let container = document.createElement('div');
                 container.classList.add('youCard');
                 let youFrame = document.createElement('iframe');

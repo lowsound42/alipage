@@ -1,7 +1,6 @@
 let personalBox = document.getElementById('personal');
 
 document.addEventListener('click', function (e) {
-    console.log(e.target.id);
     if (e.target.id == 'ptoggle' && personalBox.classList.contains('visible')) {
         personalBox.innerHTML = ' ';
         let header = document.createElement('h2');

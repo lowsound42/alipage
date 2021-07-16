@@ -33,7 +33,6 @@ const scrollTest = () => {
         x = win.innerWidth || docElem.clientWidth || body.clientWidth,
         y = win.innerHeight || docElem.clientHeight || body.clientHeight;
     if (scrollCount == 0) {
-        console.log(y);
         if (y < 700) {
             window.scrollBy(0, 600);
         } else {

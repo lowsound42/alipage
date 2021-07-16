@@ -27,7 +27,6 @@ document.addEventListener('click', function (e) {
                 count++;
                 let iframe = document.createElement('iframe');
                 iframe.classList.add('iframe');
-                console.log(element.type);
                 iframe.src = `https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/${element.widget}&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=false&visual=true`;
                 setAttributes(iframe, {
                     width: '90%',
@@ -54,7 +53,6 @@ document.addEventListener('click', function (e) {
                 fiverrCard.appendChild(iframe);
                 fiverrCard.appendChild(review);
                 if (element.client == 'Bhn Pres') {
-                    console.log(e.target.nextElementSibling);
                     e.target.nextElementSibling.style.height = '30rem';
                 }
             });
