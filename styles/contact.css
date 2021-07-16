@@ -39,7 +39,9 @@ button {
     color: #000000;
     border: none;
 }
-
+.subButton:hover {
+    cursor: pointer;
+}
 @media screen and (min-width: 850px) {
     main {
         width: 40%;
