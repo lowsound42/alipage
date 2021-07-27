@@ -1,20 +1,6 @@
 export const data = {
     synthwave: [
         {
-            widget: 1088327794,
-            client: 'Zannto',
-            review: `“Without a doubt, he exceeded my expectations a lot and so much that I will work on another project with him.”`,
-            type: 1,
-            genre: 'synth'
-        },
-        {
-            widget: 1088327839,
-            client: 'Zannto',
-            review: `“AMAZING, I didn't need to go into much detail to make a connection with the style of music that we need.”`,
-            type: 1,
-            genre: 'synth'
-        },
-        {
             widget: 990243277,
             client: 'TheNeonReaper',
             review: '“Phenomenal job!” - TheNeonReaper',
